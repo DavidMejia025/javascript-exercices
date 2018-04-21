@@ -85,9 +85,10 @@
 
   Agrégale tres métodos al prototipo de `Auto`:
 
-    * `velocidad`: retorna la velocidad del auto
-    * `acelerar`: recibe un argumento `valor` y aumenta la velocidad de acuerdo a ese argumento.
-    * `frenar`: recibe un argumento `valor` y reduce la velocidad de acuerdo a ese argumento. Si la velocidad es cero no debe cambiar.
+  * `velocidad`: retorna la velocidad del auto
+  * `acelerar`: recibe un argumento `valor` y aumenta la velocidad de acuerdo a ese argumento.
+  * `frenar`: recibe un argumento `valor` y reduce la velocidad de acuerdo a ese argumento. Si la velocidad es cero no debe cambiar.
+
     ```js
     var auto = new Auto("Renault", 1982, 12000);
     console.log(auto.velocidad()); // 0
