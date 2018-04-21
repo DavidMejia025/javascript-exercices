@@ -77,3 +77,22 @@
     caracteresEnComun("German", "Gabriela"); // ["G", "e", "r", "a"]
     caracteresEnComun("Hola", "Bye"); // []
     ```
+10. Crea un función constructora llamada `Auto` que reciba tres argumentos: `marca`, `año`, `precio` e inicialice las siguientes propiedades:
+
+    * `marca` con lo que llega por parámetro
+    * `año` con lo que llega con parámetro
+    * `precio` con lo que llega con parámetro
+
+  Agrégale tres métodos al prototipo de `Auto`:
+
+    * `velocidad`: retorna la velocidad del auto
+    * `acelerar`: recibe un argumento `valor` y aumenta la velocidad de acuerdo a ese argumento.
+    * `frenar`: recibe un argumento `valor` y reduce la velocidad de acuerdo a ese argumento. Si la velocidad es cero no debe cambiar.
+    ```js
+    var auto = new Auto("Renault", 1982, 12000);
+    console.log(auto.velocidad()); // 0
+    auto.acelerar(1);
+    console.log(auto.velocidad()); // 1
+    auto.frenar(1);
+    console.log(auto.velocidad()); // 0
+    ```
