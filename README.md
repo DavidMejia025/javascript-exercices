@@ -68,3 +68,12 @@
     "anita lava la tina".esPalindrome(); // true
     "a ti no bonita".esPalindrome(); // true
     "hola".esPalindrome(); // false
+    ```
+
+9. Crea una función llamada `caracteresEnComun` que recibe dos argumentos: `str1` y `str2`. La función debe retornar un arreglo con todos los caracteres que las dos cadenas tienen en común.
+
+    ```js
+    caracteresEnComun("Hola", "Mundo"); // ["o"]
+    caracteresEnComun("German", "Gabriela"); // ["G", "e", "r", "a"]
+    caracteresEnComun("Hola", "Bye"); // []
+    ```
