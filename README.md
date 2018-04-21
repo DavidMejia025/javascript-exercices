@@ -47,3 +47,24 @@
       { id: 3, name: "Lavadora", price: 100, categories: ["electrodomésticos"] }
     ];
     total(products); // 300
+
+6. Escribe una función `contar` que reciba un argumento llamado `str` y retorna el número de veces que aparece el caracter "a" en `str`:
+
+    ```js
+    contar("Hola Make it Real"); // 3
+    contar(""); // 0
+    ```
+
+7. Modificar la función anterior `contar` para que ahora reciba dos argumentos: `str` y `char`. La función debe retorna el número de veces que aparece el caracter `char` en `str`.
+
+    ```js
+    contar("Hola Make it Real", "i"); // 1
+    contar("Hello World", "o"); // 3
+    ```
+
+8. Escribe una función llamada `esPalindrome` que reciba un argumento `str` y retorne `true` si la frase es un palíndrome y `false` de lo contrario. Recuerda que un palíndrome es una frase que se lee igual hacia adelante y hacia atrás (excluyendo los espacios).
+
+    ```js
+    palindrome("anita lava la tina"); // true
+    palindrome("a ti no bonita"); // true
+    palindrome("hola"); // false
