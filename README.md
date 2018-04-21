@@ -62,9 +62,9 @@
     contar("Hello World", "o"); // 3
     ```
 
-8. Escribe una función llamada `esPalindrome` que reciba un argumento `str` y retorne `true` si la frase es un palíndrome y `false` de lo contrario. Recuerda que un palíndrome es una frase que se lee igual hacia adelante y hacia atrás (excluyendo los espacios).
+8. Agrega una función llamada `esPalindrome` a todos los `String` que reciba un argumento `str` y retorne `true` si la frase es un palíndrome y `false` de lo contrario. Recuerda que un palíndrome es una frase que se lee igual hacia adelante y hacia atrás (excluyendo los espacios).
 
     ```js
-    palindrome("anita lava la tina"); // true
-    palindrome("a ti no bonita"); // true
-    palindrome("hola"); // false
+    "anita lava la tina".esPalindrome(); // true
+    "a ti no bonita".esPalindrome(); // true
+    "hola".esPalindrome(); // false
